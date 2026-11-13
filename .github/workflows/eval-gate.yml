@@ -35,7 +35,11 @@ jobs:
       - name: Open a workspace
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: uv run python ci/start_workspace.py >> "$GITHUB_ENV"
+        # Masked before it reaches $GITHUB_ENV, or every later step would print the token.
+        run: |
+          uv run python ci/start_workspace.py > "$RUNNER_TEMP/workspace.env"
+          echo "::add-mask::$(sed -n 's/^AGENT_EVAL_TOKEN=//p' "$RUNNER_TEMP/workspace.env")"
+          cat "$RUNNER_TEMP/workspace.env" >> "$GITHUB_ENV"
       - name: Run the eval on the base branch
         # The baseline only has to exist; whether it passes is the base branch's business.
         run: |
