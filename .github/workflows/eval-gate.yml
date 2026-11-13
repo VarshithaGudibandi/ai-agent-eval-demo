@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # The platform commit this demo is pinned to, the same one as in pyproject.toml.
-      PLATFORM_REF: 845dea902434c849845974a8ef8eae73a25a98b1
+      PLATFORM_REF: 08e32512bcf7f3010003eea746523748aed3bff1
     steps:
       - uses: actions/checkout@v7
         with:
@@ -28,8 +28,6 @@ jobs:
       - name: Start the platform
         working-directory: platform
         run: |
-          # gemini-3.5-flash writes the report: the default model's free daily quota is tiny.
-          echo "EXPLAINER_MODEL=gemini-3.5-flash" > .env
           export APP_MASTER_KEY="$(python3 -c 'import base64, secrets; print(base64.b64encode(secrets.token_bytes(32)).decode())')"
           make up
       - name: Open a workspace

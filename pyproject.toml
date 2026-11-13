@@ -18,8 +18,8 @@ package = false
 
 [tool.uv.sources]
 # The platform's SDK and CLI, pinned to the commit the eval gate runs.
-agent-eval-sdk = { git = "https://github.com/VarshithaGudibandi/ai-agent-eval", rev = "845dea902434c849845974a8ef8eae73a25a98b1", subdirectory = "sdk" }
-agent-eval-cli = { git = "https://github.com/VarshithaGudibandi/ai-agent-eval", rev = "845dea902434c849845974a8ef8eae73a25a98b1", subdirectory = "cli" }
+agent-eval-sdk = { git = "https://github.com/VarshithaGudibandi/ai-agent-eval", rev = "08e32512bcf7f3010003eea746523748aed3bff1", subdirectory = "sdk" }
+agent-eval-cli = { git = "https://github.com/VarshithaGudibandi/ai-agent-eval", rev = "08e32512bcf7f3010003eea746523748aed3bff1", subdirectory = "cli" }
 
 [tool.ruff]
 line-length = 100
