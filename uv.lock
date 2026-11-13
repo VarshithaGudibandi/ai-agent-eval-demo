@@ -9,7 +9,7 @@ resolution-markers = [
 [[package]]
 name = "agent-eval-cli"
 version = "0.1.0"
-source = { git = "https://github.com/VarshithaGudibandi/ai-agent-eval?subdirectory=cli&rev=845dea902434c849845974a8ef8eae73a25a98b1#845dea902434c849845974a8ef8eae73a25a98b1" }
+source = { git = "https://github.com/VarshithaGudibandi/ai-agent-eval?subdirectory=cli&rev=08e32512bcf7f3010003eea746523748aed3bff1#08e32512bcf7f3010003eea746523748aed3bff1" }
 dependencies = [
     { name = "agent-eval-sdk" },
 ]
@@ -17,7 +17,7 @@ dependencies = [
 [[package]]
 name = "agent-eval-sdk"
 version = "0.1.0"
-source = { git = "https://github.com/VarshithaGudibandi/ai-agent-eval?subdirectory=sdk&rev=845dea902434c849845974a8ef8eae73a25a98b1#845dea902434c849845974a8ef8eae73a25a98b1" }
+source = { git = "https://github.com/VarshithaGudibandi/ai-agent-eval?subdirectory=sdk&rev=08e32512bcf7f3010003eea746523748aed3bff1#08e32512bcf7f3010003eea746523748aed3bff1" }
 dependencies = [
     { name = "httpx" },
 ]
@@ -41,8 +41,8 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "agent-eval-cli", git = "https://github.com/VarshithaGudibandi/ai-agent-eval?subdirectory=cli&rev=845dea902434c849845974a8ef8eae73a25a98b1" },
-    { name = "agent-eval-sdk", git = "https://github.com/VarshithaGudibandi/ai-agent-eval?subdirectory=sdk&rev=845dea902434c849845974a8ef8eae73a25a98b1" },
+    { name = "agent-eval-cli", git = "https://github.com/VarshithaGudibandi/ai-agent-eval?subdirectory=cli&rev=08e32512bcf7f3010003eea746523748aed3bff1" },
+    { name = "agent-eval-sdk", git = "https://github.com/VarshithaGudibandi/ai-agent-eval?subdirectory=sdk&rev=08e32512bcf7f3010003eea746523748aed3bff1" },
     { name = "google-genai", specifier = ">=1.0" },
     { name = "langgraph", specifier = ">=1.2.21" },
 ]
