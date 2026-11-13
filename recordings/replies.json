@@ -1,0 +1,1943 @@
+{
+ "099246f1528935c3b414dde073c0bf0dc7115e9a2d3888dfa5e893ca595e0aa5": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2011"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 361,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2011"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 361,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "0aa5dfafb401a53783c63ffb38d9c3074059e534d19f81cc74fb9f6eca2dab3f": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2003"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 364,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2003"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 364,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "0b34657bf24df93734d7f54b90fd328408cd72551220f56ab6bb8896787fb939": [
+  {
+   "parts": [
+    {
+     "text": "I have processed your refund of $70 for the returned rain jacket from order ord_2012. It should appear in your account shortly."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 31,
+    "prompt_token_count": 539,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "text": "I've processed your refund of $70 for the returned rain jacket."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 16,
+    "prompt_token_count": 539,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "0db02a3f44e702a5fe25bb34fe6d259d08caa1524af74dd211209ff86df79ed5": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "reason": "App closes when pressing pay"
+      },
+      "name": "escalate"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 19,
+    "prompt_token_count": 353,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "reason": "App crashes when customer presses pay"
+      },
+      "name": "escalate"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 20,
+    "prompt_token_count": 353,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "0f54207d0c6d148c88ffd63e642a3755920782b5b9a683bbe3588546a0ff3262": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2003",
+       "reason": "Backpack ripped by customer on day one."
+      },
+      "name": "escalate"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 36,
+    "prompt_token_count": 420,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2003",
+       "reason": "Customer reported a damaged backpack from day one."
+      },
+      "name": "escalate"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 36,
+    "prompt_token_count": 420,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "16c4f3f47929a606e8752e2b1837adddd0fae67f863dbfa92d4d8fb3466dba12": [
+  {
+   "parts": [
+    {
+     "text": "I have escalated your case to our support team so we can assist you with the damaged backpack."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 19,
+    "prompt_token_count": 490,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "199ee113c6c6e1f1ca0b63490b8611aa3a7ead51fb69b5586be63938262d650c": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2002"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 429,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2002"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 429,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "1f2ad403e94f835c7ba8aef0e313299de56b5e44ca0cc97a894782be371ce9ec": [
+  {
+   "parts": [
+    {
+     "text": "I've escalated this issue to our team so someone can assist you with the discount code right away."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 21,
+    "prompt_token_count": 408,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "26ee4762ab320516d6b621ede4b5d9ccbeefb4f9043f4b7a8f4b3bdd430be362": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2001"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 428,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "289a01519d6b80f47d759e651a263edc2563f2a786d16a943a63a773828c6f85": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2006"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 359,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2006"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 359,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "2ac575170b1934eb086c6a7d0f720ae0259e2449c0ca83d782b22d3c7289c3e9": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2012"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 366,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2012"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 366,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "2d185928742e19c266e676b32eeffbc0e36965756eee31365b7be27f0cdee7d9": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2003"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 360,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2003"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 360,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "2e7b63bba49b1993e0fb72ee7ac6a3fffed8ac9f19c3fdc13c488bb66837bacd": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2001"
+      },
+      "name": "get_order"
+     }
+    },
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2001"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 46,
+    "prompt_token_count": 368,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2001"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 368,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "360607b69eb28eb0e31bbf9085d55fb65824896f3307848f4b5be22f12969cd6": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2012"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 427,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2012"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 427,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "45317f76c8ff30427e0d66028189d04369aaae770fb7dae84aa0fb9f4c5018b8": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_9999"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 353,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_9999"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 353,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "4d37be8821e177ce9f955d568fa3092023019fef590052029a502f808bacb8e4": [
+  {
+   "parts": [
+    {
+     "text": "I have escalated your case to our team because the damage occurred after delivery. Someone will be in touch with you shortly."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 24,
+    "prompt_token_count": 490,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "4f804cbaa4989044c4d42c3f804b8ba1538dc5f61675cb36b69e5328349a5b32": [
+  {
+   "parts": [
+    {
+     "text": "I have processed your refund of $25 for the returned mouse."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 14,
+    "prompt_token_count": 546,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "text": "You will receive a refund of $25 for the returned mouse, which has arrived safely. I have just processed that refund for you."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 28,
+    "prompt_token_count": 546,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "59d9f2cf234d8e7a528313112d86888b2739e8cc596f688472a79d1129c24f97": [
+  {
+   "parts": [
+    {
+     "text": "I've processed a refund of $12 for the socks from order ord_2004."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 22,
+    "prompt_token_count": 547,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "text": "I've issued a refund of $12 for the socks from order ord_2004."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 22,
+    "prompt_token_count": 547,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "5dc3b5beebcfa2dc50b4afa3def1ace96f067aa579ee897ccd903354181fb1a7": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2008",
+       "reason": "Customer caused damage to the camera."
+      },
+      "name": "escalate"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 35,
+    "prompt_token_count": 433,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2008",
+       "reason": "Customer caused damage to the item."
+      },
+      "name": "escalate"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 34,
+    "prompt_token_count": 433,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "60d333e8355733bffe79bdb070e4ecaf445bd0185e367152446bbb6622191a43": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "amount": 59,
+       "order_id": "ord_2001"
+      },
+      "name": "issue_refund"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 28,
+    "prompt_token_count": 484,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "64d5e7495ac3aaba62722348fa402bfec7c5621fef6968885dcb062e6d6775e8": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2002"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 362,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2002"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 362,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "6574f37ca625b5f9e5fb028e33a9ebadd52cb9d9f247f13ab0b9d2628d6364cb": [
+  {
+   "parts": [
+    {
+     "text": "I have escalated your issue to our support team so we can assist you with the miscolored phone case. They will be in touch with you shortly."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 30,
+    "prompt_token_count": 518,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "6730225f65c1c461346b196707e54aa8941ce9fca3438699b125b2dc0332bd0e": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2009",
+       "reason": "Customer received a defective or miscolored item and requested a refund before returning."
+      },
+      "name": "escalate"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 42,
+    "prompt_token_count": 484,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "675dcceee14b85ab58966e51a7c5e22c603d3c2a45c68cc313cbb18c1bd00a26": [
+  {
+   "parts": [
+    {
+     "text": "I have escalated this issue to our technical support team so they can help you with the app crashing."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 20,
+    "prompt_token_count": 399,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "68dc9316c4de676f4ef8b914305a04579767aa577dfed1a4480a7c860e9c2a41": [
+  {
+   "parts": [
+    {
+     "text": "I see your order has shipped, but we cannot issue a refund until the lamp has been sent back and arrived at our warehouse. Once we receive the returned item, we would be happy to process your refund."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 42,
+    "prompt_token_count": 477,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "text": "We cannot issue a refund yet because we haven't received the returned lamp. Please send the item back to us, and once it arrives, we can process your refund."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 35,
+    "prompt_token_count": 477,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "697cf9d61e75881cc0d3f999c07b784eb15c4baa3c205a67e91d347b435244f1": [
+  {
+   "parts": [
+    {
+     "text": "Since the damage was caused by dropping the camera, I have escalated your case to our support team for review."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 22,
+    "prompt_token_count": 499,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "6e8e804f41ff5b3e3b2288a2063287e16cba87a5b459d3fafca8e7376c48fca4": [
+  {
+   "parts": [
+    {
+     "text": "This order has already been fully refunded. Please let me know if there's anything else I can help with."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 486,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "text": "This order has already been fully refunded. Let me know if you need help with anything else!"
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 19,
+    "prompt_token_count": 486,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "73bff47b4b26fdce4a03cb71402d9eb5e1cfa6c5c8f5b9cc13b93f159f4298de": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2008"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 371,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2008"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 371,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "759ce84561f8aa3d75c25f5b8a6cf1413b93cad4bb9781ad2e2ec8dad3a139cc": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2010"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 435,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2010"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 435,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "76182851169b952c8455b70148fe50cd516c49d7c1dfa1e7b0ed9b85fd6a9d7c": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "amount": 70,
+       "order_id": "ord_2012"
+      },
+      "name": "issue_refund"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 28,
+    "prompt_token_count": 484,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "amount": 70,
+       "order_id": "ord_2012"
+      },
+      "name": "issue_refund"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 28,
+    "prompt_token_count": 484,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "7c352e5911a7967a6c52825e7841ba172d29b1c80450c727f717bb2d59ce0914": [
+  {
+   "parts": [
+    {
+     "text": "Could you please tell me what you mean by that and provide your order number so I can help?"
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 20,
+    "prompt_token_count": 352,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "text": "Could you please clarify what you mean, or provide your order ID so I can assist you?"
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 19,
+    "prompt_token_count": 352,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "7dc4a273542d4715f9f272542344586d442a38853c4c249e4dec118b848cb2b3": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2005"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 370,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2005"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 370,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "7e033485b3cf49004b2c39d314ba1dee6628364f65855441b47dfa87bbbb4299": [
+  {
+   "parts": [
+    {
+     "text": "Your refund of $45 for order ord_2002 was already processed, so you should see it in your account shortly."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 28,
+    "prompt_token_count": 483,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "8107e9a4a69a54a462ba7082da44d394e44595306937b73e35cb1c162ae460fe": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2007"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 422,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2007"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 422,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "82c924296c255893e728a2ce2782f67bb49058f0880485a37857131656733de5": [
+  {
+   "parts": [
+    {
+     "text": "Your order is still processing, so the item hasn't been sent back yet. Once you return the chair and it arrives, we can process your refund."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 32,
+    "prompt_token_count": 474,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "text": "Your order is still processing and hasn't been shipped or returned yet. We can only issue a refund once the item has been sent back and arrived at our warehouse."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 34,
+    "prompt_token_count": 474,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "842637635b95ffb03a3d83c701cfd53553aee80a401ab0e458f26bc4efbc0bdd": [
+  {
+   "parts": [
+    {
+     "text": "It looks like only the mug was delivered for order ord_2010, so I have escalated this issue to our support team to locate your missing items."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 33,
+    "prompt_token_count": 547,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "85af09db216ec9454520c77d1ef2f6a9e956d68d61bc30c84d5f3d1ebcd0ab8c": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2010"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 365,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2010"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 365,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "8ad0bb038c53a9ef7ccfd6cb74203f6e2bba90ed3a4de67413fd4c89fe2b3fd8": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "amount": 59,
+       "order_id": "ord_2001"
+      },
+      "name": "issue_refund"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 28,
+    "prompt_token_count": 482,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "961afa7cb2b20af023e07c9ed5aa7ba956cd61ce478a4ade10da84a1ed2950d4": [
+  {
+   "parts": [
+    {
+     "text": "I cannot find an order with the ID ord_9999. Please check the order number and let me know the correct one."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 28,
+    "prompt_token_count": 397,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "text": "I'm sorry, but I couldn't find an order with the ID ord_9999. Could you please double-check your order number?"
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 33,
+    "prompt_token_count": 397,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "96d4f820f0855ef1a781a8f4433822c5e009b5ec943b2ee2d2e49e10a65393d8": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "amount": 25,
+       "order_id": "ord_2005"
+      },
+      "name": "issue_refund"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 28,
+    "prompt_token_count": 491,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "amount": 25,
+       "order_id": "ord_2005"
+      },
+      "name": "issue_refund"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 28,
+    "prompt_token_count": 491,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "9d9ee69ea49f5d1337b30e259bb3c2474453e5db566f15fe8e014c81320703d7": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2005"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 435,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2005"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 435,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "a178b1531ce96d7d32235dc7927c1d5e4bac7fc76179815b9d3be1eef437b65c": [
+  {
+   "parts": [
+    {
+     "text": "Your refund for order ord_2002 was already processed for the full amount of $45. Please check your bank statement, as it can take a few business days to appear."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 39,
+    "prompt_token_count": 485,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "a2951d879fe823f739bfa8d85457f40f2619cecde69d11e5e69686104df08ffd": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2002"
+      },
+      "name": "get_order"
+     }
+    },
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2002"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 46,
+    "prompt_token_count": 361,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2002"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 361,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "a2ff169955d74c1f7852eb4f0cf8c1a4aacb9dd64666c59f01b8d6b77df4a3f7": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "amount": 12,
+       "order_id": "ord_2004"
+      },
+      "name": "issue_refund"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 28,
+    "prompt_token_count": 492,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "amount": 12,
+       "order_id": "ord_2004"
+      },
+      "name": "issue_refund"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 28,
+    "prompt_token_count": 492,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "afa2480d4618bb24e8f04d06d41a07f39ebca9670c9f5470390abdab4cff7cfb": [
+  {
+   "parts": [
+    {
+     "text": "I'm sorry you're frustrated, but we can only issue a refund once the returned items have arrived back at our warehouse."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 27,
+    "prompt_token_count": 476,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "text": "I'm sorry you're frustrated, but we can only process a refund once the returned items have arrived back at our warehouse."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 27,
+    "prompt_token_count": 476,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "afc4aa84bc32347f14cacd002f3c63618ab3e6faf628eb73139cd45a6a8e15b5": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2003"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 424,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2003"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 424,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "b11ffcbf548e93e750b29954564d4f174d4354d3d0330f9b3d69d834d14d6b3b": [
+  {
+   "parts": [
+    {
+     "text": "Could you please provide your order ID?"
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 8,
+    "prompt_token_count": 345,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "text": "That message doesn't make any sense. Could you please provide your order ID and let me know what you need help with?"
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 26,
+    "prompt_token_count": 345,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "b1d0af65e3420675e8f093aab8b9ef5b8a235663b48394557fdd8e303e397c38": [
+  {
+   "parts": [
+    {
+     "text": "Your order was delivered, but it looks like the kettle and teapot were missing from the package. I can escalate this issue to our support team so we can investigate the missing items for you."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 38,
+    "prompt_token_count": 487,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2010",
+       "reason": "Items missing from delivery"
+      },
+      "name": "escalate"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 31,
+    "prompt_token_count": 487,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "b296238adaa83d7b16d452938fc6714b6ef46f983a55283b99f70436e4b54b49": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2004"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 436,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2004"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 436,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "b46ae7e674ab3e5f794cf5486f1cc0be76f82d0a07cd825c1736de6ac8e2a71d": [
+  {
+   "parts": [
+    {
+     "text": "Since tracking shows order ord_2011 as delivered, please check around your building or with neighbors to see if it was left nearby. If you still can't find it, let me know and I can escalate this issue for you."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 50,
+    "prompt_token_count": 422,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "text": "I see order ord_2011 for a water bottle was marked as delivered. Since it's missing from your door, I'll escalate this to our team so we can investigate the delivery issue."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 43,
+    "prompt_token_count": 422,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "b4737a172d32b1405acaafce36a7e383e30cf0fb11eafd9df20dbc8a6093a480": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2006"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 354,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2006"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 354,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "b4ed6e8320215492184df2562213b0644f4854ea435755b4da3afda7cb8c03fe": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2004"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 369,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2004"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 24,
+    "prompt_token_count": 369,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "b6247c3b6dd21eef3b22ed62ab7fc401284232933a82ad23b28167859bb0e28a": [
+  {
+   "parts": [
+    {
+     "text": "I can see your returned headphones have arrived, so I have issued a full refund of $59 to your original payment method."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 26,
+    "prompt_token_count": 539,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "bafa0aef95b9bd2905be223683bce0a11db25477425b2c0ce2ade8e6b38d4c60": [
+  {
+   "parts": [
+    {
+     "text": "I have escalated your issue to our support team because there is a problem with the discount code at checkout. Someone will be in touch with you shortly."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 30,
+    "prompt_token_count": 400,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "bbe361773f7bce7a091ee4549351d22656beed9b34a99ae726e0393eaa4223b6": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2009"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 371,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2009"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 371,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "c8490eb24c12a286622975c02cdf072598f0d08c42c9ac042cb1d8b5923ba4d4": [
+  {
+   "parts": [
+    {
+     "text": "I have escalated your case to a support specialist to help resolve the issue with your phone case. They will be in touch with you shortly."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 28,
+    "prompt_token_count": 566,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "d17cab89ec1ddf54c2513f0779dd01e51e19f5ae9abb6d83e9fa6cdef27e6227": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2006"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 425,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2006"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 425,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "d4235db934ac90bec21dca9e583aa9eb66bdfe484ac98aa575b1adee20e760c1": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2007"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 359,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2007"
+      },
+      "name": "get_order"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 359,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "d5a9dac4d2e29f349fb77e9351ae5992c03378bcf07243cf4b016169e4cd4d01": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "reason": "Discount code invalid at checkout"
+      },
+      "name": "escalate"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 19,
+    "prompt_token_count": 356,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "reason": "Customer reported an invalid discount code at checkout."
+      },
+      "name": "escalate"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 356,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "dbbcc623ce8c788159415f3411ccdfdecaded48b2c690494ab56c08ba3e279e8": [
+  {
+   "parts": [
+    {
+     "text": "I have escalated your case to our support team since the damage was caused by dropping the camera."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 19,
+    "prompt_token_count": 499,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "e0b9e8f1e53c9adf068c7f1c602fab5cb1a13c4f5eb5bbf6cdebc65e8b1d3413": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2009"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 432,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2009",
+       "reason": "Customer received a miscolored item and requested a refund for product defect/quality issue."
+      },
+      "name": "escalate"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 44,
+    "prompt_token_count": 432,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "eab7c5dfb1164eb608afed068d56c83767183c1e6d44b363fdde6e7a9c34acda": [
+  {
+   "parts": [
+    {
+     "text": "Your order was shipped and should arrive soon."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 9,
+    "prompt_token_count": 420,
+    "thoughts_token_count": null
+   }
+  },
+  {
+   "parts": [
+    {
+     "text": "Your order ord_2006 has been shipped and should arrive soon."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 16,
+    "prompt_token_count": 420,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "ed8e5027596dc19acca6b42015624b6da112f0a087cd14f1e1263a0a19964ece": [
+  {
+   "parts": [
+    {
+     "text": "I have confirmed your return has arrived, and I've issued a full refund of $59 to your original payment method."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 26,
+    "prompt_token_count": 537,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "f93de681f000d7f6cb833b56547fa521397e8880c8e8bd79b8760f03fc0bcf97": [
+  {
+   "parts": [
+    {
+     "call": {
+      "args": {
+       "order_id": "ord_2002"
+      },
+      "name": "get_return"
+     }
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 23,
+    "prompt_token_count": 428,
+    "thoughts_token_count": null
+   }
+  }
+ ],
+ "fb9a2fd63d0d9cca1af98db2fd1c30fca6ab4ef830cba75be78b9bd3327904d2": [
+  {
+   "parts": [
+    {
+     "text": "I have escalated this issue to our technical support team so they can help resolve the problem with the app."
+    }
+   ],
+   "usage": {
+    "cached_content_token_count": null,
+    "candidates_token_count": 21,
+    "prompt_token_count": 397,
+    "thoughts_token_count": null
+   }
+  }
+ ]
+}
