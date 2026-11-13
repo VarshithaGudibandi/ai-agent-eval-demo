@@ -1,0 +1,33 @@
+[project]
+name = "ai-agent-eval-demo"
+version = "0.1.0"
+description = "A LangGraph support agent whose regressions AI Agent Eval catches, explains and blocks in CI."
+requires-python = ">=3.12"
+dependencies = [
+    "agent-eval-cli",
+    "agent-eval-sdk",
+    "google-genai>=1.0",
+    "langgraph>=1.2.21",
+]
+
+[dependency-groups]
+dev = ["pytest>=9.2.0", "ruff>=0.17.3"]
+
+[tool.uv]
+package = false
+
+[tool.uv.sources]
+# The platform's SDK and CLI, pinned to the commit the eval gate runs.
+agent-eval-sdk = { git = "https://github.com/VarshithaGudibandi/ai-agent-eval", rev = "845dea902434c849845974a8ef8eae73a25a98b1", subdirectory = "sdk" }
+agent-eval-cli = { git = "https://github.com/VarshithaGudibandi/ai-agent-eval", rev = "845dea902434c849845974a8ef8eae73a25a98b1", subdirectory = "cli" }
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "RUF"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
