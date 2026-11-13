@@ -1,0 +1,24 @@
+name: record
+
+# Records the real model's replies for every case, on demand, after a prompt or tool change.
+# The new recordings come back as an artifact to review and commit.
+
+on:
+  workflow_dispatch:
+
+jobs:
+  record:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v7
+        with:
+          version: "0.11.32"
+      - run: uv sync --locked
+      - run: uv run python record.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - uses: actions/upload-artifact@v7
+        with:
+          name: recordings
+          path: recordings/replies.json

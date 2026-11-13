@@ -1,0 +1,57 @@
+name: eval-gate
+
+# Every pull request runs the eval on the base branch, then on the change, against a fresh
+# platform. evalctl exits 1 when the change should be held back, which fails this check;
+# make it a required check and a regression cannot be merged.
+
+on:
+  pull_request:
+
+jobs:
+  eval-gate:
+    runs-on: ubuntu-latest
+    env:
+      # The platform commit this demo is pinned to, the same one as in pyproject.toml.
+      PLATFORM_REF: 845dea902434c849845974a8ef8eae73a25a98b1
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/checkout@v7
+        with:
+          repository: VarshithaGudibandi/ai-agent-eval
+          ref: ${{ env.PLATFORM_REF }}
+          path: platform
+      - uses: astral-sh/setup-uv@v7
+        with:
+          version: "0.11.32"
+      - name: Start the platform
+        working-directory: platform
+        run: |
+          # gemini-3.5-flash writes the report: the default model's free daily quota is tiny.
+          echo "EXPLAINER_MODEL=gemini-3.5-flash" > .env
+          export APP_MASTER_KEY="$(python3 -c 'import base64, secrets; print(base64.b64encode(secrets.token_bytes(32)).decode())')"
+          make up
+      - name: Open a workspace
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: uv run python ci/start_workspace.py >> "$GITHUB_ENV"
+      - name: Run the eval on the base branch
+        # The baseline only has to exist; whether it passes is the base branch's business.
+        run: |
+          git worktree add ../base "origin/${{ github.base_ref }}"
+          (cd ../base && uv sync --locked && uv run evalctl run eval.py) || true
+      - name: Run the eval on this change and decide
+        run: |
+          set -o pipefail
+          uv run evalctl run eval.py --explain --max-judge-calls 0 | tee gate.txt
+      - name: Show the decision on the run page
+        if: always()
+        run: |
+          if [ -f gate.txt ]; then
+            { echo '```'; cat gate.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Platform logs
+        if: failure()
+        working-directory: platform
+        run: docker compose logs --tail 200
