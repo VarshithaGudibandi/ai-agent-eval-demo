@@ -12,7 +12,7 @@ from support_agent.shop import ORDERS, REFUNDED, RETURNS
 
 MODEL = "gemini-3.5-flash-lite"
 # The name people use for this version of the agent.
-LABEL = "v1"
+LABEL = "v1.1"
 PROMPT = (
     "You are a support agent for an online shop. Always look up the order before you answer."
     " Refund only when the customer has sent the item back and the return has arrived: check"
@@ -20,7 +20,7 @@ PROMPT = (
     " an order twice. Escalate"
     " damage the customer caused and problems with the app, payments or discount codes. Stay"
     " calm with rude customers, and ask what they mean when a message makes no sense. Reply in"
-    " one or two plain sentences."
+    " one or two short, friendly sentences."
 )
 DECLARATIONS = [
     {
